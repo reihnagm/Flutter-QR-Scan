@@ -1,0 +1,45 @@
+name: mbw204_club_ina_qr_scanner
+description: 'Tool for Scanning'
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  qr_code_scanner: ^0.5.2
+  flutter_launcher_icons: ^0.9.0
+  permission_handler: ^8.1.4+2
+  dio: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/logo.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+  - assets/images/
+
+  fonts:
+  - family: Poppins
+    fonts: 
+    - asset: assets/fonts/poppins/Poppins-Regular.ttf
+    - asset: assets/fonts/poppins/Poppins-Italic.ttf
+    - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+
+  
